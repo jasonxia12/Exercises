@@ -1,0 +1,38 @@
+" indent
+set autoindent
+set smartindent
+" tab
+set tabstop=4
+set shiftwidth=4
+set expandtab
+" search
+set hlsearch
+set incsearch
+set nowrapscan
+set ignorecase
+set showmatch
+" show line number and col number
+set number
+set ruler
+" syntax
+syntax enable
+syntax on
+" folder
+set foldmethod=syntax
+" misc
+set visualbell
+set binary noeol
+"set nocompatible
+" ctgs support
+" let Tlist_Ctags_Cmd="/usr/local/bin/ctags"
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+
+" cscope support
+" set cscopequickfix=s-,c-,d-,i-,t-,e-
+
+set encoding=utf-8
+set termencoding=utf-8
+
+au BufWinLeave * mkview
+au BufWinEnter * silent loadview
