@@ -1,11 +1,10 @@
-// @file 	main.c
-// @breif  	this file contains the implementation of FindPath
-//
-// @author	Peng Xia
-// @date	8/1/2011
-// 
-// COPYRIGHT (c) 8/1/2011, Peng Xia
-
+/**
+ * @file Exec_004.cpp
+ * @brief Find all path of a binary tree which sum up to a K
+ * @author Peng Xia
+ * @version 0.1
+ * @date 2011-08-18
+ */
 #include <iostream>
 #include <list>
 using namespace std;

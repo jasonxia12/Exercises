@@ -1,3 +1,10 @@
+/**
+ * @file Exec_001.cpp
+ * @brief Convert a binary search tree to a double linked sorted list
+ * @author Peng Xia
+ * @version 0.1
+ * @date 2011-08-18
+ */
 #include <iostream>
 
 using namespace std;

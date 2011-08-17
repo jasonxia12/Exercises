@@ -1,3 +1,10 @@
+/**
+ * @file Exec_003.cpp
+ * @brief Find the maximum sum of a sub array from an array.
+ * @author Peng Xia
+ * @version 0.1
+ * @date 2011-08-18
+ */
 #include <iostream>
 #include <vector>
 

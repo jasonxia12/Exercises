@@ -1,3 +1,10 @@
+/**
+ * @file Exec_002.cpp
+ * @brief Implement a stack which has O(1) push, pop and min operation.
+ * @author Peng Xia
+ * @version 0.1
+ * @date 2011-08-18
+ */
 #include <iostream>
 
 using namespace std;
